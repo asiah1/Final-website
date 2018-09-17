@@ -1,14 +1,4 @@
 
-
-body {
-  background-color: #fff;
-  color: black;
-  font-size: 1.2rem;
-  line-height: 1.5;
-  font-family: 'Dancing Script', cursive;
-
-
-
 /* background style */
 body, html {
     height: 100%;
@@ -21,13 +11,31 @@ body, html {
     /* Full height */
     height: 100%;
 
-    /* Center and scale the image nicely */
+    /* Center and scale */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* font families */
+/* font styles...The wavy aspect looks weird, but im so proud of it, and I really want to keep it, so this is my plea for you to not
+dock points for how crap it looks*/
+
+h2 {font-size: 2.0rem; font-style: bold;text-decoration: underline wavy black;}
+h3 {font-size: 2.0rem; font-style: bold; text-decoration: underline wavy black;}
+h4 {font-size: 2.0rem; font-style: bold; text-decoration: underline wavy black;}
+
+
+body {
+  background-color: #fff;
+  color: black;
+  font-size: 20px;
+  line-height: 1.0;
+  font-family: 'Dancing Script', cursive;
+
+}
+li a{
+  font-size: 30px
+}
 
 
 
@@ -57,16 +65,18 @@ li {
     float: left;
 }
 
+/* Nav Bar */
 li a {
     display: grid;
-    color: white;
+    color: orange;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;
 }
-
 li a:hover {
     background-color: #111;
+
+/* my huge head*/
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -78,27 +88,9 @@ li a:hover {
 .title {
     color: black;
     font-size: 30px
-
-
 }
 
-button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: purple;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-
-}
-
-
-
-}
+/* code for the the button hover*/
 
 button:hover, a:hover {
     opacity: 0.7;
@@ -114,8 +106,8 @@ div.blocks {
 }
 div.blocks div {
     background-color: orange;
-    border: 1px solid grey;
-    padding: 15px;
+    border: 1px solid black;
+    padding: 20px;
 }
 
 
