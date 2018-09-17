@@ -17,12 +17,11 @@ body, html {
     background-size: cover;
 }
 
-/* font styles...The wavy aspect looks weird, but im so proud of it, and I really want to keep it, so this is my plea for you to not
-dock points for how crap it looks*/
+/* font styles...*/
 
-h2 {font-size: 2.0rem; font-style: bold;text-decoration: underline wavy black;}
-h3 {font-size: 2.0rem; font-style: bold; text-decoration: underline wavy black;}
-h4 {font-size: 2.0rem; font-style: bold; text-decoration: underline wavy black;}
+h2 {font-size: 2.0rem; font-style: bold;}
+h3 {font-size: 2.0rem; font-style: bold;}
+h4 {font-size: 2.0rem; font-style: bold;}
 
 
 body {
@@ -34,11 +33,8 @@ body {
 
 }
 li a{
-  font-size: 30px
+  font-size: 25px
 }
-
-
-
 /* List elements*/
 
 ul {
