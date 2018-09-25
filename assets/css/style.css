@@ -63,7 +63,7 @@ li {
 li a {
     display: grid;
     color: orange;
-    text-align: right;
+    text-align: center;
     padding: 20px 20px;
     text-decoration: none;
 }
